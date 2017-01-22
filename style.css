@@ -1,0 +1,53 @@
+header {
+  overflow: auto;
+  border-bottom: 1px solid;
+}
+
+header h1 {
+  float: left;
+}
+
+header p {
+  float:right;
+  margin-top: 30px;
+}
+
+main {
+  overflow: auto;
+  border-bottom: 1px solid;
+}
+
+.comment-input {
+  float: left;
+}
+
+.comments {
+  float: right;
+  width: 65%;
+}
+
+.comments p {
+  border-radius: 5px;
+  padding-left: 6px;
+}
+
+.comment-input input {
+  font-weight: bold;
+}
+
+.comment-input button {
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+  color: white;
+  background: darkgrey;
+}
+
+.comments p:nth-child(even) {
+  background: lavender;
+}
+
+.comments p:nth-child(odd) {
+  background: gainsboro;
+}
